@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0
+}
+header{
+width: 100%; height: 60px; background-color: #B1B1B1; padding: 15px
+}
+html{
+	scroll-behavior: smooth
+}
+.logo {
+width: 130px;height: auto
+}
+.menu ul {
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a {
+	text-decoration: none;padding: 20px;color:#3F3F3F
+}
+.menu ul li a:hover {
+background-color: #945336; color: #F7F7F7
+}
+.icon{
+margin: 0;padding: 0;display:flex
+}
+.icon a i{
+color: #222222; padding: 0 10px
+}
+.icon a i:hover{
+	color: #A3532F
+}
+.banner{
+	width: 100%; min-height: 400px; background-color: antiquewhite
+}
+main{
+	width: 100%; min-height: 500px
+}
+#feature{
+	width: 100%; min-height: 600px; background-image: url("../images/bg2.png"); background-repeat: no-repeat;background-size: cover; background-position: bottom center
+}
+#feature a{
+	text-decoration: none; color: darkred
+}
+#feature a:hover{
+	color:#FC5254
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.pt-30{
+	padding-top: 30px
+}
+.vien{
+	width: 100%;min-height: 100px;border: 2px solid darkred; padding: 10px; position: relative; overflow: hidden
+}
+.vien:hover .icon2 {
+	top:27%
+}
+.vien-trang{
+	width: 100%; min-height: 100%; border: 2px solid white; padding: 20px
+}
+.vien-trang p a{
+	color: darkred; text-decoration: none
+}
+.vien-trang p a:hover{
+	color: white
+}
+footer{
+	width: 100%; height: 300px;position: relative
+}
+form-control{
+	padding: 8px; margin-bottom: 10px; width: 100%
+}
+.text-do{
+	color: darkred
+}
+.text-xam {
+	color: #6A6A6A; border-bottom: 2px solid #A3532F
+}
+.icon2{
+	position: absolute; width: 80%; height: 40px; left: 10%; top: -15%; justify-content: space-around; transition: all 1s
+}
+.icon2 a{
+	height: 40px; width: 40px; background-color: darkred; color: white; border-radius: 50px; display: flex; text-decoration: none; justify-content: center; align-items: center}
+container3 { width: 35%; height: auto; position: absolute;left: 35%; top: 30%
+}
+.icon2 a:hover{
+	background-color: darkred; color: white
+}
+.btn {
+padding: 10px 20px;background-color: #945336; border-radius: 5px;color: white;cursor: pointer
+}
+.btn:hover {
+background-color: darkred;color: white
+}
+#contact {width: 100%;min-height: 600px;background-image:url("../images/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center center
+}
+.shadow {
+border: 1px solid gray;padding: 30px;width: 100%;min-height: 600px;box-shadow: 5px 5px 5px gray
+}
+.col-6 p a {
+color: #666666;text-decoration: none;font-size: 15px
+}
+.col-6 p a:hover { background-color: darkred; color: white;border-radius: 15px;padding: 5px
+}
+
